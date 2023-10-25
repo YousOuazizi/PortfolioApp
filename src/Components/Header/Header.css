@@ -1,0 +1,38 @@
+/* Header.css */
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 3rem;
+  background-color: #333; /* couleur de fond sombre, à ajuster selon l'image */
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  gap: 48em; /* espacement entre les éléments */
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 0.5rem;
+  transition: color 0.3s ease;
+}
+
+nav a:hover {
+  color: #ddd; /* couleur au survol, à ajuster selon l'image */
+}
+
+/* Styles pour les icônes des médias sociaux */
+nav a svg {
+  width: 1.5rem;
+  height: 1.5rem;
+  fill: white;
+}
+
+nav a svg:hover {
+  fill: #ddd; /* couleur de remplissage au survol, à ajuster selon l'image */
+}

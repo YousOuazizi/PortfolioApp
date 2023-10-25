@@ -1,0 +1,29 @@
+/* MainSection.css */
+
+.main-section {
+  display: flex;
+  flex-direction: column;
+  height: 500px;
+  align-items: center;
+  padding: 3rem 0;
+  background-color: #1e4465; /* Couleur d'arrière-plan selon le design */
+  color: white; /* Couleur du texte */
+}
+
+.profile-photo {
+  width: 150px; /* ou la taille désirée */
+  height: 150px;
+  border-radius: 50%; /* Pour rendre l'image ronde */
+  object-fit: cover; /* Assure que l'image couvre l'espace sans être déformée */
+  margin-bottom: 1rem;
+}
+
+.welcome-text {
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.title {
+  font-size: 2rem;
+  font-weight: bold;
+}
